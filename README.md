@@ -8,7 +8,7 @@ API REST desarrollada en C# .NET 10 que opera como servicio proxy intermediario 
 ## 1. Requisitos Previos del Sistema
 Para compilar y ejecutar este proyecto es necesario contar con:
 - .NET SDK 10.0 (o superior): https://dotnet.microsoft.com/download
-- Visual Studio 2022 (version 17.10 o superior) con la carga de trabajo "Desarrollo web y de ASP.NET", o Visual Studio Code con la extension "C# Dev Kit".
+- Entorno de desarrollo: Visual Studio Code con extension "C# Dev Kit" o Visual Studio 2026 / Visual Studio 2022 v17.12+ con soporte para .NET 10. Tambien es totalmente ejecutable de forma universal y multiplataforma mediante la CLI de .NET en cualquier terminal (Windows, Linux, macOS).
 - Conexion a internet activa (requerida para que el proxy HTTP consuma los datos de FakeRestAPI en tiempo real).
 
 ---
@@ -48,7 +48,7 @@ La API se iniciara y quedara escuchando en las siguientes direcciones:
 - HTTPS: https://localhost:7278
 - HTTP: http://localhost:5120
 
-### Opcion B: Desde Visual Studio 2022
+### Opcion B: Desde Visual Studio / VS Code
 1. Abrir el archivo de solucion `BookApi.sln`.
 2. En el Explorador de Soluciones, hacer clic derecho sobre el proyecto `BookApi.Api` y seleccionar **Establecer como proyecto de inicio** (*Set as Startup Project*).
 3. Presionar la tecla **F5** (o Ctrl + F5) para iniciar la aplicacion.
